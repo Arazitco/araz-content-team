@@ -1,5 +1,13 @@
 # Quality Review — Day 3 Fallback Story
 
+## Revision Note (Owner Review Round)
+Owner decision: APPROVE CONCEPT WITH MINOR COPY REVISION. Frame 1
+unchanged (owner confirmed it already reads naturally). Frame 2's "نه یه
+قالب آماده" replaced with "نه یک نسخه یکسان برای همه" to avoid implying an
+unconfirmed specific technical implementation method (e.g. templates).
+Concept substitution status (owner-approved for Week 1 only) is
+unchanged and unaffected by this copy edit.
+
 ## Content Quality
 - **Factual accuracy:** PASS — process steps sourced directly from
   `knowledge/services.md`; no project or client referenced or implied.

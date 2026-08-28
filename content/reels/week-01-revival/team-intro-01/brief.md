@@ -14,7 +14,15 @@ EXPERIMENT: TEST 02 — Talking-Head / Expert Content
 A real person from ArasSystem speaks directly to the camera to reintroduce
 the account after its inactive period — human, calm, not scripted-sounding.
 
-## Hook (candidates)
+## Hook — Revised per Owner Review
+«یه مدت اینجا کم‌رنگ بودیم. حالا برگشتیم.»
+
+**Revision reason:** the script's original "why" beat explained the
+inactivity with an unconfirmed specific reason and read as somewhat
+apologetic/defensive. The revised hook and script (see `script.md`)
+acknowledge the gap confidently without explaining or apologizing for it.
+
+**Prior hook candidates (superseded, kept for reference only):**
 1. "یه مدتی نبودیم. برگشتیم — با یه تغییر کوچیک."
 2. "قبل از اینکه دوباره شروع کنیم، بذار خودمون رو معرفی کنیم."
 

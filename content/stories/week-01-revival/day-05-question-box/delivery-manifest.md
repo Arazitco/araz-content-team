@@ -1,7 +1,7 @@
 CONTENT ID: day-05-question-box
 CONTENT TYPE: Story (1 frame)
-VERSION: v03 — draft-preview PNG removed from the repository per owner
-instruction
+VERSION: v04 — copy lightly polished per Owner Review (concept and single-
+frame format unchanged)
 
 DOCUMENTS:
 [x] Brief

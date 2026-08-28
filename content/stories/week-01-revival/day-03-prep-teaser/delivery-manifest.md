@@ -1,8 +1,8 @@
 CONTENT ID: day-03-prep-teaser
 CONTENT TYPE: Story (2 frames) — CONCEPT SUBSTITUTE for calendar's
 original WIP-teaser concept (process-education fallback)
-VERSION: v03 — concept substitution owner-approved (Week 1 only); draft
-PNGs removed
+VERSION: v04 — Frame 2 copy revised per Owner Review ("نه یه قالب آماده"
+→ "نه یک نسخه یکسان برای همه"); concept substitution approval unchanged
 
 ✅ CONCEPT SUBSTITUTION: OWNER-APPROVED FOR WEEK 1 ONLY. The owner has
 explicitly approved replacing the unavailable WIP content with this

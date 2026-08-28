@@ -1,12 +1,17 @@
 # Caption — Mahtaj Skinland Design Breakdown Carousel (Day 4)
 
-## Draft Caption (Persian)
+## Draft Caption (Persian) — Revised per Owner Review
 
-بعضی وقتا یه سایت فروشگاهی باید چند برند رو با هم نشون بده، بدون اینکه به‌هم بریزه.
+یه نگاه به عناصر قابل‌مشاهده تو صفحه اصلی Mahtaj Skinland — بدون حدس زدن دلیل طراحی، فقط چیزی که واقعاً روی صفحه هست.
 
-تو این پست، صفحه اصلی Mahtaj Skinland رو از این زاویه بررسی می‌کنیم — چیدمان دسته‌ها، بخش‌های جدا برای هر برند، و یه صفحه که برای موبایل طراحی شده.
+دسته‌بندی‌ها، بخش‌های جدا برای هر برند، و یه صفحه که کامل روی موبایل باز می‌شه.
 
 برای مشاوره طراحی سایت: ۰۹۱۲۶۸۹۵۰۰۱
+
+## Revision Note
+Previous draft said the page was "designed for mobile" — an inferred
+intent, not a confirmed one. This version explicitly states we're
+reviewing visible elements only, not the reasoning behind them.
 
 ## CTA Line
 برای مشاوره طراحی سایت: ۰۹۱۲۶۸۹۵۰۰۱

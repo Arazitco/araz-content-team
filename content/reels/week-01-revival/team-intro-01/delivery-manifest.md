@@ -1,6 +1,8 @@
 CONTENT ID: team-intro-01
 CONTENT TYPE: Reel
-VERSION: v01
+VERSION: v02 — script/caption revised per Owner Review (removed the
+unconfirmed inactivity reason; tightened ~25s → ~20s); MEDIA STATUS
+unchanged (still PENDING OWNER FOOTAGE)
 
 DOCUMENTS:
 [x] Brief

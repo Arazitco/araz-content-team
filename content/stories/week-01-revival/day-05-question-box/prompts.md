@@ -2,28 +2,34 @@
 
 ## MASTER PROMPT
 ```
-Vertical 1080x1920 Instagram Story graphic. Solid dark navy background
-(#0f1b2d), no imagery, no logo. Text positioned in the upper two-thirds
-(leave lower third empty for a sticker added later), centered, RTL
-Persian, white bold sans-serif:
-Line 1: "هر سوالی درباره سایتتون دارید، همینجا بپرسید."
-Line 2 (smaller): "طراحی، سئو، هاست — هرچی تو ذهنتونه."
-9:16 aspect ratio, generous margins, no logo/brand color implied as final.
+Vertical 1080x1920 Instagram Story graphic. Professional editorial
+typographic composition (per `design-direction.md`) — text positioned in
+the upper two-thirds, leaving the lower third clear for a sticker added
+later. Right-to-left Persian text:
+Line 1 (primary): "اگه درباره سایتتون سوال دارید، همینجا بپرسید."
+Line 2 (secondary): "طراحی، تجربه کاربری، سئو یا هاست — هرچی ذهنتون رو درگیر کرده."
+9:16 aspect ratio, generous margins, no logo/brand color implied as final,
+no generic AI decoration.
 ```
 
 ## ALTERNATIVE PROMPT
-Same text on warm-gray (#2a2a2a) background variant.
+Same text, exploring a warm neutral (off-white/warm-gray) palette with
+dark type as an alternative to a dark background with light type.
 
 ## REGENERATION / REVISION PROMPT
 ```
-Regenerate with the same visual system, replacing the text with:
+Regenerate with the same design system, replacing the text with:
 "<new text>".
 ```
 
 ## NEGATIVE / AVOID INSTRUCTIONS
 No logos, no stock imagery, no crowding the lower third (reserved for the
-Question Box sticker).
+Question Box sticker), no generic AI decoration (3D renders, glow/neon,
+meaningless gradients, clip-art icons), no plain solid-background
+centered-text card presented as if it were already finished professional
+design.
 
 ## Generation Method
-Rendered locally via headless-browser HTML/CSS render (Chromium/
-Playwright) — same method as other Week 1 Story frames.
+Not yet generated. A prior draft used a local headless-browser HTML/CSS
+render — functional for text/copy review but not a substitute for a
+professional design pass.

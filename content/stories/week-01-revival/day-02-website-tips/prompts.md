@@ -1,53 +1,55 @@
 # Prompts — Website Tips Story (Day 2)
 
-These frames were actually rendered locally in this session (real
-generation, not a specification-only placeholder) — see `final-assets/`
-and `delivery-manifest.md`. The prompts below let the owner reproduce or
-regenerate the same concept in another tool.
+**Status note:** the frames previously generated from an earlier version
+of this prompt set were plain draft-quality renders and have since been
+deleted from the repository (see `delivery-manifest.md` — MEDIA STATUS:
+PENDING EXTERNAL GENERATION). The prompts below reflect the revised copy
+and a genuine editorial-design brief, not a placeholder card.
 
 ## MASTER PROMPT (Frame 1)
 ```
-Vertical 1080x1920 Instagram Story graphic. Solid dark navy background
-(#0f1b2d), no imagery, no logo. Centered, right-to-left Persian text in
-white, large bold sans-serif, two short lines:
-Line 1: "کاربر تو چند ثانیه اول تصمیم می‌گیره بمونه یا بره."
-Line 2 (smaller, below): "صفحه اول سایتتون همین الان چی نشون میده؟"
-Generous margins (~80px), no borders, no additional graphic elements.
-Aspect ratio: 9:16. Do not add any logo, brand color, or icon.
+Vertical 1080x1920 Instagram Story graphic. Professional editorial
+typographic composition — intentional Persian typography, clear
+hierarchy between the two lines below, strong whitespace, thoughtful
+(not necessarily centered) alignment. Neutral, non-brand-locked palette
+(a dark neutral background is one acceptable direction; do not treat any
+color as final brand identity). Right-to-left Persian text:
+Line 1 (primary): "صفحه اول سایت باید خیلی زود روشن کنه این کسب‌وکار چه کاری انجام می‌ده."
+Line 2 (secondary): "سایت شما در نگاه اول اینو واضح می‌گه؟"
+Aspect ratio: 9:16. No logo, no stock imagery, no decorative 3D/glow/
+gradient effects, no random icons.
 ```
 
 ## MASTER PROMPT (Frame 2)
 ```
-Same visual system as Frame 1 (1080x1920, #0f1b2d background, centered
-white Persian sans-serif text, RTL). Text:
-Line 1: "بیشتر بازدیدکننده‌ها از موبایل وارد سایت میشن."
-Line 2: "سایتتون رو این هفته با موبایل خودتون چک کردید؟"
+Same visual system as Frame 1. Text:
+Line 1 (primary): "یه بار سایتتون رو فقط با موبایل باز کنید:"
+Line 2 (secondary): "متن‌ها خواناست؟ دکمه‌ها راحت پیدا می‌شن؟"
 Same exclusions as Frame 1.
 ```
 
 ## MASTER PROMPT (Frame 3)
 ```
-Same visual system as Frames 1–2 (1080x1920, #0f1b2d background, centered
-white Persian sans-serif text, RTL), but leave the lower third of the
-frame empty/uncluttered to accommodate a Question Box sticker added
-afterward. Text (upper two-thirds):
-Line 1: "یه سوال ساده: وقتی کاربر وارد سایتتون میشه، دقیقاً می‌دونه قدم بعدی چیه؟"
-Line 2: "اگه سوالی درباره سایتتون دارید، تو پیام بپرسید."
+Same visual system as Frames 1–2, but leave the lower third of the frame
+clear/uncluttered to accommodate a Question Box sticker added afterward.
+Text (upper two-thirds):
+Line 1 (primary): "وقتی کاربر وارد سایت می‌شه، قدم بعدی براش مشخصه؟"
+Line 2 (secondary): "اگه درباره سایتتون سوال دارید، همینجا بپرسید."
 Same exclusions as Frame 1.
 ```
 
 ## ALTERNATIVE PROMPT (any frame)
 ```
-Same text and layout as the Master Prompt, but on a neutral warm-gray
-background (#2a2a2a) instead of navy, testing an alternate neutral tone
-while remaining non-brand-locked.
+Same text as the Master Prompt, but explore a warm neutral (off-white or
+warm-gray) palette with dark type instead of a dark background with
+light type — testing which neutral direction reads more editorial/
+professional, while remaining non-brand-locked.
 ```
 
 ## REGENERATION / REVISION PROMPT
 ```
-Regenerate [Frame N] with the same visual system, replacing the text
-with: "<new text>". Keep background color, typography, and margins
-identical to the original Master Prompt.
+Regenerate [Frame N] keeping the same editorial design system (hierarchy,
+whitespace, alignment approach), replacing the text with: "<new text>".
 ```
 
 ## NEGATIVE / AVOID INSTRUCTIONS
@@ -55,10 +57,14 @@ identical to the original Master Prompt.
 - No stock photography or illustrations
 - No more than 2 lines of primary text per frame
 - No color implying a final/approved brand palette
+- No generic AI decoration (3D renders, glow/neon effects, meaningless
+  gradients, clip-art icons)
+- No plain solid-background centered-text card presented as if it were
+  already the finished professional design
 
-## How These Were Actually Generated
-Rendered via a local headless-browser HTML/CSS render (Chromium via
-Playwright, pre-installed in this environment) — a deterministic layout
-render, not a generative AI image model. This is disclosed for
-transparency; the prompts above are written to be reproducible in an
-actual AI image tool as well, per the Prompt Portability Requirement.
+## Generation Method
+Not yet generated. A prior draft used a local headless-browser HTML/CSS
+render (Chromium/Playwright) — functional for text/copy review but
+explicitly not a substitute for a professional design pass (see
+`design-direction.md`). The next generation attempt should aim for the
+editorial standard described above.
