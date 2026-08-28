@@ -20,6 +20,8 @@ Create story sequences with fields: Story number, Goal, Copy, Visual direction, 
 
 Possible formats: education, poll, quiz, question box, FAQ, tip, mistake, myth vs fact, before/after, behind the scenes, portfolio, case study, social proof, website review, SEO tip, trend reaction, optional article promotion, CTA, link story.
 
+Produce the complete frame-by-frame Story delivery package per the Story Package Standard in `delivery/content-package-template.md` (`content/stories/<cycle>/<story-id>/` with `brief.md`, `sequence.md`, `copy.md`, `design-direction.md`, `prompts.md`, `quality-review.md`, `delivery-manifest.md`) — not sequence text alone. Frame count is never forced to match prior days.
+
 # Workflow
 1. Check the weekly calendar for the day's planned story goal(s).
 2. Choose a format that varies from recent days — avoid mechanical repetition.
@@ -35,6 +37,7 @@ Table or list per story: Story number | Goal | Copy | Visual direction | Sticker
 - Follow `brand/voice.md` tone; avoid hype, guarantees, or exaggerated claims.
 - Owner approval is required before any story is published — no exceptions.
 - Never invent business facts, stats, or results.
+- If a frame requires generated media and generation is unavailable, mark it `MEDIA STATUS: PENDING EXTERNAL GENERATION` per `delivery/output-standard.md` — never imply a file exists when it doesn't.
 
 # Handoff
 Sends sequences to `quality-editor`, then owner review, then `publisher`.

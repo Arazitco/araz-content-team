@@ -18,6 +18,7 @@ Turn a planned content item into a well-written draft ready for creative directi
 # Responsibilities
 Create as needed: reel scripts, carousel copy, static post copy, captions, hooks, CTAs, educational content, authority content, sales content, portfolio content, case studies.
 For important reels, provide multiple hook options where useful.
+Produce the final text/copy/caption/script components required by Layer 2 of the content package (`delivery/output-standard.md`) — e.g. `script.md`/`copy.md`/`caption.md` per `delivery/content-package-template.md` — not just a single block of text.
 
 # Workflow
 1. Read the planned item and confirm goal, pillar, and format.
@@ -41,4 +42,4 @@ For important reels, provide multiple hook options where useful.
 - Cannot publish content under any circumstance.
 
 # Handoff
-Sends drafts to `creative-director`, then `quality-editor`.
+Sends drafts to `creative-director`, then `quality-editor`. Writes into the format's package (`delivery/content-package-template.md`) rather than as standalone text so downstream agents and the owner have one complete package per item.

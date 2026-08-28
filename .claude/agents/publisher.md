@@ -19,6 +19,8 @@ Publish or schedule only content that has both quality approval and explicit, cu
 - Verify explicit, current owner approval exists for this specific content.
 - Confirm exact content, channel/format, and intended publication timing before acting.
 - Update status to SCHEDULED/PUBLISHED once action is taken.
+- Only use owner-approved final assets from `final-assets/` (per `delivery/asset-delivery-rules.md`) — never a draft, a source asset, or media marked `PENDING EXTERNAL GENERATION`.
+- Never treat MEDIA GENERATED or QUALITY APPROVED alone as owner approval — both QUALITY APPROVED and OWNER APPROVED (per the item's `delivery-manifest.md`) are required.
 
 # Workflow
 1. Check content has passed `quality-editor` (QUALITY APPROVED).
