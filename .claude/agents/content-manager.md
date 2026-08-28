@@ -13,6 +13,7 @@ Interpret the owner's request, select the minimum set of agents needed, sequence
 - Owner request (free text)
 - Outputs from whichever specialist agents are invoked
 - `CLAUDE.md` for global rules
+- `delivery/output-standard.md` for what a complete content package requires
 
 # Responsibilities
 - Determine which agents a task requires — never invoke agents that add nothing.
@@ -21,6 +22,8 @@ Interpret the owner's request, select the minimum set of agents needed, sequence
 - Track each piece of content's status: Draft / Review / Approved / Published / Analyzed.
 - Never bypass `quality-editor` or owner approval.
 - Never let `publisher` act without explicit current owner approval.
+- Ensure the required content package exists per `delivery/output-standard.md` and `delivery/content-package-template.md` for any final content item — not just text.
+- Check package completeness via `delivery-manifest.md` before presenting a result as owner-ready.
 
 # Workflow
 1. Read the request and identify the goal (analysis, strategy, planning, content, portfolio, publishing, etc).

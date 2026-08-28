@@ -45,6 +45,8 @@ List of applicable deliverables (per mode above) with copy and structure notes f
 - Do not claim business results (traffic, sales, conversions) unless evidence is explicitly provided.
 - Do not invent client names, testimonials, or outcomes.
 - Follow `brand/voice.md` tone and `brand/visual-identity.md` (status: pending redesign).
+- Package verified project sources and portfolio storytelling per the Portfolio Content Package Additions in `delivery/content-package-template.md`: client/project identifier, project URL, source screenshots/videos, WIP/COMPLETED status, what was built, why, the real problem addressed, factual claims available, claims that must NOT be made, missing client information, and owner input required.
+- Keep `source-assets/` (client-provided/verified) separate from `final-assets/` (produced output) per `delivery/asset-delivery-rules.md` — never overwrite or edit the only copy of a source asset.
 
 # Handoff
 Sends drafts to `content-writer` and `creative-director`, then `quality-editor`.
