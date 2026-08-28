@@ -1,7 +1,8 @@
 CONTENT ID: day-02-website-tips
 CONTENT TYPE: Story (3 frames)
-VERSION: v03 — draft-preview PNGs removed from the repository per owner
-instruction (v02 had reclassified but still retained them)
+VERSION: v04 — copy revised per Owner Review (Frames 1–2 unsupported
+general claims removed; design direction opened up to a genuine
+editorial pass instead of prescribing the plain card as final)
 
 DOCUMENTS:
 [x] Brief

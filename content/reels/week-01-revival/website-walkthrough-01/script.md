@@ -4,40 +4,48 @@ Grounded entirely in the 3 supplied screenshots (see
 `source-assets/README.md`). No feature described here is invented.
 
 ## Hook (0–2s)
-**On-screen text:** «این سایت فروشگاهی چطور کمک می‌کنه یه ست کامل بخرید؟»
+**On-screen text:** «از دسته‌بندی تا تکمیل ست؛ یه نگاه به جزئیات فروشگاه
+Carlin Ladies.»
 **Visual:** Homepage hero — the woman in the brown coat set, "Trending
 Coats" banner.
 
-## Scene 2 — Browsing (2–6s)
-**On-screen text:** «دسته‌بندی‌های شیک و مرتب»
+## Scene 2 — Categories (2–6s)
+**On-screen text:** «دسته‌بندی‌ها از همون ابتدای صفحه در دسترسن»
 **Visual:** Pan down through Top Categories (Summer Set, Sale, Jacket,
 Scarf) and the On Sale / New In / Most Loved carousels.
 
 ## Scene 3 — Product Page Arrival (6–11s)
-**On-screen text:** «صفحه محصول با جزئیات کامل»
+**On-screen text:** «اطلاعات محصول، قیمت و راهنمای سایز کنار هم»
 **Visual:** The "کت کرپ صدف" product page — gallery, price, size
 selector, size chart.
 
-## Scene 4 — The Real Feature (11–17s)
-**On-screen text:** «امکان تکمیل ست، همون زیر محصول»
+## Scene 4 — The Cross-Sell Feature (11–17s)
+**On-screen text:** «پیشنهاد تکمیل ست، زیر همون محصول»
 **Visual:** Zoom/highlight on the "این آیتم‌ها را می‌توانید همراه این
 محصول ست کنید" cross-sell block — the blouse + trousers bundle with
 combined price.
 
-## Scene 5 — Finding What You Need (17–23s)
-**On-screen text:** «فیلتر دقیق برای پیدا کردن سریع‌تر»
+## Scene 5 — Filtering Options (17–23s)
+**On-screen text:** «فیلترهای مختلف برای مرور محصولات»
 **Visual:** Shop/category page — category icon row, then the filter
 sidebar (price, color, size, fabric, sleeve type).
 
-## Scene 6 — Trust Details (23–27s)
-**On-screen text:** «جزئیاتی که اعتماد می‌سازن»
+## Scene 6 — Brand Info (23–27s)
+**On-screen text:** «بخش‌های معرفی و اطلاعات تکمیلی برند»
 **Visual:** Trust badge row (fast shipping / free exchange / professional
 stitching / quality fabric) from the product page, and/or the Our Story
-stats block from the homepage.
+section from the homepage.
 
 ## Scene 7 — CTA (27–30s)
 **On-screen text:** «نمونه‌کارهای بیشتر رو تو آراز سیستم ببینید»
 **Visual:** End card.
+
+## Revision Note (Owner Review)
+Per owner review, this pass removed subjective/causal wording that
+claimed more than the supplied screenshots support (e.g. "شیک و مرتب",
+"جزئیات کامل", "اعتماد می‌سازن") and replaced it with plain, factual
+observation of what's on the page. The concept, scene structure, and
+timing are unchanged.
 
 ## Timing / Pacing
 ~30s total — slightly longer than a typical 25s walkthrough because there

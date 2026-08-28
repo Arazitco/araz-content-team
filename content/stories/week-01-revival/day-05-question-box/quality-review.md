@@ -1,26 +1,25 @@
 # Quality Review — Question Box Story (Day 5)
 
+## Revision Note (Owner Review Round)
+Owner decision: APPROVE WITH LIGHT POLISH. Copy naturalness improved
+("هر سوالی...دارید" → "اگه...سوال دارید"; added "تجربه کاربری" to the
+topic list). Concept and single-frame format unchanged, per owner
+instruction not to expand into multiple frames. Design direction aligned
+with Days 2–3's updated editorial standard.
+
 ## Content Quality
-- **Originality / human tone:** PASS.
+- **Originality / human tone:** PASS — slightly more natural phrasing.
 - **Factual accuracy:** PASS — no claims made, pure interaction prompt.
 - **Strategic alignment:** PASS — Cross-cutting, ENGAGEMENT goal, matches
   Day 5 of the approved plan.
 - **CTA:** PASS — single, genuine (Ask a question).
 - **Brand voice:** PASS.
 
-## Visual Quality — Critical Re-Review
-
-Same standard applied as Day 2 (see
-`content/stories/week-01-revival/day-02-website-tips/quality-review.md`
-for the full criteria list): this frame is a plain text-on-solid-color
-render — legible and correctly composed for the Question Box sticker
-space, but flat, template-feeling, and not professionally art-directed.
-Reclassified as **DRAFT VISUAL PREVIEW**, not final.
-
 ## Delivery Completeness
-All documents present; media exists but is draft-quality only.
+All documents present; no media currently exists (see
+`delivery-manifest.md`).
 
 ## Decision
 
-**QUALITY APPROVED FOR COPY/MESSAGE REVIEW ONLY.**
-**NOT APPROVED AS FINAL VISUAL OUTPUT.**
+**QUALITY APPROVED FOR OWNER REVIEW (copy).**
+**NOT APPROVED AS FINAL VISUAL OUTPUT** — no media exists yet.

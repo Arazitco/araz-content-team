@@ -3,13 +3,16 @@
 All shots require a **real person from ArasSystem** — no AI-generated
 talking head, no stand-in, no synthetic voice.
 
+**Revised per Owner Review:** tightened from 5 shots/~25s to 4 shots/~20s
+(the separate "why we were away" shot was removed along with that beat
+in `script.md`).
+
 | Shot | Type | Description | Duration | Status |
 |---|---|---|---|---|
 | 1 | Real recording (phone/camera) | Talking-head, medium shot, hook line | 2s | PENDING — needs owner/team recording |
-| 2 | Real recording | Talking-head continues | 6s | PENDING |
-| 3 | Real recording (or optional B-roll) | Talking-head or team/office cutaway | 8s | PENDING — B-roll optional |
-| 4 | Real recording | Talking-head, direct address | 6s | PENDING |
-| 5 | Static end card (no dependency) | Text end card | 3s | Can be produced now (no project dependency) |
+| 2 | Real recording (or optional B-roll) | Talking-head or team/office cutaway | 8s | PENDING — B-roll optional |
+| 3 | Real recording | Talking-head, direct address | 6s | PENDING |
+| 4 | Static end card (no dependency) | Text end card | 4s | Can be produced now (no project dependency) |
 
 ## B-Roll Requirements (optional)
 Team working, office environment — nice-to-have, not required. If

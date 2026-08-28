@@ -3,11 +3,11 @@
 BRAND VISUAL STATUS: FLEXIBLE — FINAL IDENTITY PENDING
 
 ## Layout
-Consistent 4:5 frame across all 8 slides. Slides 1–7 use the real
-screenshot (cropped per slide, see `structure.md`) as full-bleed
-background with a bottom or top gradient scrim for text; Slide 8 is a
-text-only end card using the same neutral background system as other
-Week 1 text slides.
+Consistent 4:5 frame across all **7 slides** (revised down from 8 per
+Owner Review — see `structure.md`). Slides 1–6 use the real screenshot
+(cropped per slide) as full-bleed background with a bottom or top
+gradient scrim for text; Slide 7 is a text-only end card using the same
+neutral background system as other Week 1 text slides.
 
 ## Typography
 Same Persian-capable sans-serif system as the rest of Week 1. One

@@ -13,13 +13,13 @@ screenshots as input images (no generated imagery):
 [IMAGE 2: carlin-product-page.png] — "کت کرپ صدف" product page, mobile viewport
 [IMAGE 3: carlin-shop-page.png] — shop/category listing page with filter sidebar, mobile viewport
 
-Scene plan (per storyboard.md):
-1. 0–2s: IMAGE 1, hero section, slow zoom-in. Text: "این سایت فروشگاهی چطور کمک می‌کنه یه ست کامل بخرید؟"
-2. 2–6s: IMAGE 1, pan down through Top Categories + On Sale/New In/Most Loved. Text: "دسته‌بندی‌های شیک و مرتب"
-3. 6–11s: IMAGE 2, pan across gallery/price/size chart. Text: "صفحه محصول با جزئیات کامل"
-4. 11–17s: IMAGE 2, crop-zoom into the "این آیتم‌ها را می‌توانید همراه این محصول ست کنید" cross-sell block. Text: "امکان تکمیل ست، همون زیر محصول"
-5. 17–23s: IMAGE 3, pan from category icon row to the filter sidebar. Text: "فیلتر دقیق برای پیدا کردن سریع‌تر"
-6. 23–27s: IMAGE 2 (trust badges) and/or IMAGE 1 (Our Story stats), gentle zoom. Text: "جزئیاتی که اعتماد می‌سازن"
+Scene plan (per storyboard.md, revised per owner review):
+1. 0–2s: IMAGE 1, hero section, slow zoom-in. Text: "از دسته‌بندی تا تکمیل ست؛ یه نگاه به جزئیات فروشگاه Carlin Ladies."
+2. 2–6s: IMAGE 1, pan down through Top Categories + On Sale/New In/Most Loved. Text: "دسته‌بندی‌ها از همون ابتدای صفحه در دسترسن"
+3. 6–11s: IMAGE 2, pan across gallery/price/size chart. Text: "اطلاعات محصول، قیمت و راهنمای سایز کنار هم"
+4. 11–17s: IMAGE 2, crop-zoom into the "این آیتم‌ها را می‌توانید همراه این محصول ست کنید" cross-sell block. Text: "پیشنهاد تکمیل ست، زیر همون محصول"
+5. 17–23s: IMAGE 3, pan from category icon row to the filter sidebar. Text: "فیلترهای مختلف برای مرور محصولات"
+6. 23–27s: IMAGE 2 (trust badges) and/or IMAGE 1 (Our Story section), gentle zoom. Text: "بخش‌های معرفی و اطلاعات تکمیلی برند"
 7. 27–30s: static end card. Text: "نمونه‌کارهای بیشتر رو تو آراز سیستم ببینید"
 
 Motion: slow pans/zooms only, max ~8% scale change, no spins/glitches.
@@ -39,9 +39,9 @@ permanent brand color/logo treated as final.
 ```
 Use IMAGE 1 (Carlin Ladies homepage hero — woman in brown coat set) as
 the 9:16 (1080×1920) cover background, full-bleed, no crop distortion.
-Overlay the headline "این سایت فروشگاهی چطور کمک می‌کنه یه ست کامل بخرید؟"
-in the lower third, white Persian-capable bold sans-serif, RTL alignment,
-on a subtle dark gradient scrim. No logo lock-in.
+Overlay the headline "از دسته‌بندی تا تکمیل ست؛ یه نگاه به جزئیات فروشگاه
+Carlin Ladies." in the lower third, white Persian-capable bold sans-serif,
+RTL alignment, on a subtle dark gradient scrim. No logo lock-in.
 ```
 
 ## ALTERNATIVE VIDEO PROMPT

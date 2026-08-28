@@ -1,5 +1,13 @@
 # Quality Review — Carlin Ladies Website Walkthrough Reel (Day 1)
 
+## Revision Note (Owner Review Round)
+Owner decision: REQUEST REVISION. Hook and 5 on-screen text lines were
+rewritten to remove subjective/causal claims ("شیک و مرتب", "جزئیات
+کامل", "اعتماد می‌سازن", and the implied "helps you buy a complete set"
+causal claim in the hook) that were stronger than the 3 supplied
+screenshots support. Caption rewritten to describe visible structure only.
+Concept, scene count, and timing unchanged.
+
 ## Content Quality
 - **Originality / human tone:** PASS — script references specific,
   genuinely observed features (cross-sell bundle, filter sidebar), not

@@ -61,15 +61,19 @@ feature** and the **shop page's detailed filtering**, not just visual
 styling. This is the honest, specific angle (not generic "look how pretty
 this coat is").
 
-## Hook (Persian)
-**Primary:** «این سایت فروشگاهی چطور کمک می‌کنه یه ست کامل بخرید؟»
-(How does this store's site help you buy a complete outfit set?)
+## Hook (Persian) — Revised per Owner Review (v2)
+**Primary:** «از دسته‌بندی تا تکمیل ست؛ یه نگاه به جزئیات فروشگاه Carlin
+Ladies.»
+(From categories to completing a set — a look at the details of the
+Carlin Ladies store.)
 
-**Alternative 1:** «از صفحه اول تا صفحه محصول — یه فروشگاه لباس زنانه رو با هم مرور می‌کنیم.»
-(From the homepage to the product page — let's look at a women's fashion store together.)
+**Revision reason:** the prior hook ("این سایت فروشگاهی چطور کمک می‌کنه
+یه ست کامل بخرید؟") implied a causal benefit claim stronger than the
+supplied screenshots support. The new hook frames this as an observational
+walkthrough, not a claimed outcome.
 
-**Alternative 2:** «وقتی یه سایت فروشگاهی، تصمیم خرید رو راحت‌تر می‌کنه، این‌شکلیه.»
-(When an e-commerce site makes the buying decision easier, this is what it looks like.)
+**Prior hook (superseded, kept for reference only):** «این سایت فروشگاهی
+چطور کمک می‌کنه یه ست کامل بخرید؟»
 
 ## CTA
 Visit website (soft — "نمونه‌کارهای بیشتر رو تو آراز سیستم ببینید"), per

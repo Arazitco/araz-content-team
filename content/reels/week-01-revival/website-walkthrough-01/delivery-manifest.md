@@ -1,8 +1,9 @@
 CONTENT ID: website-walkthrough-01
 CONTENT TYPE: Reel
 PROJECT: Carlin Ladies (https://carlinladies.com)
-VERSION: v03 — second file-supply attempt still did not result in stored
-files (see below); no content changes made this pass
+VERSION: v04 — copy revised per Owner Review (hook + 5 on-screen lines +
+caption rewritten to remove subjective/causal claims; concept unchanged).
+File-storage gap unchanged from v03.
 
 DOCUMENTS:
 [x] Brief

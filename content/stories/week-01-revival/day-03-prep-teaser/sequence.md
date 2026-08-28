@@ -13,16 +13,20 @@
 - **CTA:** None.
 - **Link:** None.
 - **Source asset:** None required.
-- **Media status:** READY — generated locally (see `final-assets/`).
+- **Media status:** PENDING EXTERNAL GENERATION.
 
 ## Frame 2
 - **Purpose:** Education (process transparency, continued)
-- **Exact text:** «بعدش راه‌حلی متناسب با همون هدف پیشنهاد میدیم، نه یه قالب آماده.»
-  (secondary line) «همین هفته چند تا نکته از این فرآیند رو باهاتون به اشتراک می‌ذاریم.»
+- **Exact text:** «بعدش راه‌حلی متناسب با همون نیاز پیشنهاد می‌دیم؛ نه یک
+  نسخه یکسان برای همه.»
+  (secondary line) «همین هفته چند نکته از این فرآیند رو باهاتون به اشتراک می‌ذاریم.»
+  *(Revised per Owner Review: "نه یه قالب آماده" replaced with "نه یک نسخه
+  یکسان برای همه" — avoids implying a specific technical implementation
+  method that isn't confirmed.)*
 - **Visual:** Same neutral background system.
 - **Layout:** Full-bleed 9:16, centered text.
 - **Sticker/interaction:** None.
 - **CTA:** None.
 - **Link:** None.
 - **Source asset:** None required.
-- **Media status:** READY — generated locally (see `final-assets/`).
+- **Media status:** PENDING EXTERNAL GENERATION.

@@ -8,11 +8,10 @@ input clip, not generative-video prompts.
 
 ## MASTER VIDEO PROMPT (assembly/editing prompt)
 ```
-Assemble a 9:16, ~25-second vertical Reel from one real input clip (a
+Assemble a 9:16, ~20-second vertical Reel from one real input clip (a
 team member speaking to camera, provided as input — no generated video):
-1. [CLIP: team-intro-raw.mp4] trimmed/cut per script.md into the 5 scenes
-   (0–2s hook, 2–8s context, 8–16s what's changing, 16–22s invitation,
-   22–25s close).
+1. [CLIP: team-intro-raw.mp4] trimmed/cut per script.md into the 4 scenes
+   (0–2s hook, 2–10s what's changing, 10–16s invitation, 16–20s close).
 Composition: full-bleed 9:16 vertical, natural framing, minimal on-screen
 text (per design-direction.md) appearing only at the timestamps specified
 in storyboard.md.

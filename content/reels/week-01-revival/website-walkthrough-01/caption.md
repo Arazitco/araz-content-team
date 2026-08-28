@@ -1,12 +1,15 @@
 # Caption — Carlin Ladies Website Walkthrough Reel (Day 1)
 
-## Draft Caption (Persian)
+## Draft Caption (Persian) — Revised per Owner Review
 
-یه سایت فروشگاهی خوب فقط قشنگ نیست؛ کمک می‌کنه مشتری راحت‌تر تصمیم بگیره — از پیدا کردن محصول درست تا تکمیل کردن ست خرید.
-
-تو این ریل با هم سایت Carlin Ladies رو مرور می‌کنیم؛ از صفحه اول تا صفحه محصول.
+توی سایت Carlin Ladies، دسته‌بندی‌ها از همون صفحه اول در دسترسن، صفحه محصول اطلاعات و راهنمای سایز رو کنار هم نشون می‌ده، و در صفحه محصول، پیشنهاد تکمیل ست هم دیده می‌شه.
 
 نمونه‌کارهای بیشتر رو تو آراز سیستم ببینید.
+
+## Revision Note
+Previous draft claimed the site "helps the customer decide more easily" —
+stronger than the supplied screenshots support. This version describes
+only what's visibly on the page.
 
 ## CTA Line
 نمونه‌کارها رو ببینید → لینک تو بایو (Visit website)

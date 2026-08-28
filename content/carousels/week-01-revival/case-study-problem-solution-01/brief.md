@@ -56,9 +56,16 @@ file is still not physically stored in `source-assets/` — see
 `source-assets/README.md`. This appears to be an environment limitation,
 not a retry-able mistake.
 
-## Hook
-«چطور یه فروشگاه چندبرندی رو خوب می‌چینیم؟»
-(How do you organize a multi-brand store well?)
+## Hook — Revised per Owner Review
+«فروشگاه چندبرندی روی موبایل چطور دیده می‌شه؟»
+(How does a multi-brand store look on mobile?)
+
+**Revision reason:** the prior hook ("چطور یه فروشگاه چندبرندی رو خوب
+می‌چینیم؟") implied a value judgment ("خوب می‌چینیم") not directly
+verified. The new hook is a neutral, observational framing.
+
+**Prior hook (superseded, kept for reference only):** «چطور یه فروشگاه
+چندبرندی رو خوب می‌چینیم؟»
 
 ## CTA
 For this consultation-suited portfolio piece:
