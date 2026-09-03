@@ -32,6 +32,28 @@ fabricates a completed file.
 
 For: Stories, Carousel, Static Posts, Covers.
 
+## Pre-Production Asset Verification (Required Before Requesting Any Canva Design)
+
+Before requesting a Canva design, verify that the required source assets
+actually exist in `source-assets/`:
+- Homepage screenshots
+- Product screenshots
+- Mobile screenshots
+- Brand assets
+
+Check only what the specific package actually needs (per its
+`brief.md`/`structure.md`/`sequence.md`) — not every category applies to
+every item.
+
+**If any required asset is missing:** do not start visual production.
+Create an `OWNER ASSET REQUIRED` checklist instead (one item per missing
+asset, format per `.claude/agents/asset-researcher.md`), and only prepare
+Canva instructions for the slides/frames that don't depend on the
+missing asset (e.g. a text-only end card). Never request a Canva design
+that would need a fabricated or AI-substituted stand-in for a missing
+real asset — that violates Rule 1 below and the REAL ASSET PRESERVATION
+RULE in `.claude/agents/media-producer.md`.
+
 Prepare:
 - Canvas size (per `delivery/asset-delivery-rules.md` aspect ratios: 9:16
   Story/Reel-cover, 4:5 Carousel slide/feed portrait, 1:1 or 4:5 static
