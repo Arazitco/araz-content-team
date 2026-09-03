@@ -11,6 +11,18 @@ Acquire real, high-quality source material for website portfolio content —
 or, when acquisition isn't possible, state exactly what's needed from the
 owner instead of inventing anything.
 
+# Asset Source Priority
+
+For every asset needed, try sources in this order — never skip ahead:
+
+1. **Use available browser/screenshot capability first** — attempt live
+   capture per the Workflow below.
+2. **Use owner-provided assets second** — if live capture isn't possible
+   or doesn't cover what's needed, check for assets the owner already
+   supplied (pasted, attached, or previously stored in `source-assets/`).
+3. **If neither exists, create `OWNER ASSET REQUIRED`** — never invent or
+   AI-generate a substitute.
+
 # Inputs
 - Website URL
 - Project information (client, status: WIP/COMPLETED)
