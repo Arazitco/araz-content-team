@@ -31,6 +31,7 @@
 - `week-01-content-review-fa.md` — نسخه فارسیِ محتوای هفته اول برای تأیید
 - `week-01-media-production-fa.md` — صف تولید رسانه هفته اول
 - `media-review.md` — قالب تکرارشونده مرور و تأیید رسانه نهایی هر آیتم
+- `media-review-carlin-ladies-day1-fa.md` — نمونه پرشده از قالب بالا، برای اولین تست end-to-end گردش‌کار تولید رسانه
 - `README.md` — همین فایل
 
 ## قانون خروجی رو‌به‌مالک
