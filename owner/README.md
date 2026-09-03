@@ -29,6 +29,8 @@
 - `instagram-strategy-fa.md` — نسخه فارسیِ استراتژی محتوای اینستاگرام
 - `instagram-30-day-calendar-fa.md` — نسخه فارسیِ تقویم ۳۰ روزه
 - `week-01-content-review-fa.md` — نسخه فارسیِ محتوای هفته اول برای تأیید
+- `week-01-media-production-fa.md` — صف تولید رسانه هفته اول
+- `media-review.md` — قالب تکرارشونده مرور و تأیید رسانه نهایی هر آیتم
 - `README.md` — همین فایل
 
 ## قانون خروجی رو‌به‌مالک

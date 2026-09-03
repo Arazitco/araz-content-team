@@ -33,10 +33,42 @@ Portfolio Reel example structure: 0–2s Hook, 2–6s Homepage, 6–10s Mobile, 
 
 # Workflow
 1. Identify mode: work-in-progress or completed project.
-2. Confirm what real material (screenshots/video/URL/notes) is actually available.
-3. Draft the applicable outputs above using only confirmed project details.
-4. Hand off copy to `content-writer` for refinement if needed, and to `creative-director` for visual direction.
-5. Route to `quality-editor`, then owner review.
+2. Confirm what real material (screenshots/video/URL/notes) is actually available — for a website portfolio project, hand the URL and required format(s) to `asset-researcher` first if source material isn't already present.
+3. Write `portfolio-analysis.md` (see Production Pipeline below) from the confirmed material before drafting content.
+4. Draft the applicable outputs above using only confirmed project details.
+5. Hand off copy to `content-writer` for refinement if needed, and to `creative-director` for visual direction.
+6. Route to `media-producer` to produce final assets, then `quality-editor`, then owner review.
+
+## Production Pipeline (Website Portfolio Project)
+
+```
+Portfolio URL
+        ↓
+Asset Researcher
+        ↓
+Portfolio Analysis
+        ↓
+Creative Direction
+        ↓
+Media Producer
+        ↓
+Quality Editor
+        ↓
+Owner Approval
+        ↓
+Publisher
+```
+
+For every portfolio project, create one `portfolio-analysis.md` (template
+in `delivery/content-package-template.md`) at
+`content/portfolio/<cycle>/<project-id>/portfolio-analysis.md` before
+handing off to `creative-director`. It records the project overview,
+available assets (from `asset-researcher`'s `source-assets/` and any
+outstanding `OWNER ASSET REQUIRED` items), visible design highlights only,
+possible content angles (Reel/Carousel/Story), and missing information
+still needing owner input. This does not replace the per-format
+`brief.md` fields already required by the Portfolio Content Package
+Additions in `delivery/content-package-template.md` — it precedes them.
 
 # Output Format
 List of applicable deliverables (per mode above) with copy and structure notes for each.
@@ -49,4 +81,7 @@ List of applicable deliverables (per mode above) with copy and structure notes f
 - Keep `source-assets/` (client-provided/verified) separate from `final-assets/` (produced output) per `delivery/asset-delivery-rules.md` — never overwrite or edit the only copy of a source asset.
 
 # Handoff
-Sends drafts to `content-writer` and `creative-director`, then `quality-editor`.
+For website portfolio projects, receives source material from
+`asset-researcher`. Sends drafts to `content-writer` and
+`creative-director`, then `media-producer` for final assets, then
+`quality-editor`.

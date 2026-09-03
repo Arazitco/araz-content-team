@@ -167,6 +167,56 @@ Before/After, Carousel case study, Static showcase, Story sequence, Mobile
 showcase, UX explanation — matching `strategy/content-pillars.md`'s
 Portfolio & Case Studies pillar.
 
+### Portfolio Analysis Template
+
+For every website portfolio project, `portfolio-producer` creates one
+`portfolio-analysis.md` at
+`content/portfolio/<cycle>/<project-id>/portfolio-analysis.md`, produced
+after `asset-researcher` and before `creative-director` (see the
+Production Pipeline in `.claude/agents/portfolio-producer.md`). It is
+project-level — shared context for whichever Reel/Carousel/Story/Post
+packages get produced from it — not a replacement for any package's own
+`brief.md`.
+
+```markdown
+# Project Overview
+
+Client:
+Industry:
+Website URL:
+
+
+# Available Assets
+
+Screenshots:
+Videos:
+Other materials:
+
+
+# Design Highlights
+
+Visible design strengths only.
+
+Do not invent business results.
+
+
+# Content Opportunities
+
+Possible:
+- Reel angle
+- Carousel angle
+- Story angle
+
+
+# Missing Information
+
+Owner input required.
+```
+
+Any asset `asset-researcher` could not acquire is listed under Available
+Assets as an outstanding `OWNER ASSET REQUIRED` item (see
+`.claude/agents/asset-researcher.md`), not silently omitted.
+
 ---
 
 ## Delivery Manifest Template

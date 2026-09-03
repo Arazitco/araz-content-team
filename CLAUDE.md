@@ -72,6 +72,15 @@ automation, WhatsApp automation, and automatic follow-up.
 
 ```
 Research/Analytics → Strategy → Planning → Content Production →
-Creative Direction → Quality & Originality Review → Owner Review →
-Approve/Revise → Publish → Analytics → Strategy Improvement
+Creative Direction → Asset Acquisition → Media Production →
+Quality & Originality Review → Owner Review → Approve/Revise →
+Publish → Analytics → Strategy Improvement
 ```
+
+Asset Acquisition (`asset-researcher`) and Media Production
+(`media-producer`) are additive production-layer steps between Creative
+Direction and Quality & Originality Review — see
+`.claude/agents/asset-researcher.md` and
+`.claude/agents/media-producer.md`. They turn already-approved creative
+direction into real source assets and final PNG/JPG/MP4 files; they do
+not change strategy, planning, or approval rules elsewhere in this file.
