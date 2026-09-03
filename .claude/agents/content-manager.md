@@ -46,4 +46,4 @@ Interpret the owner's request, select the minimum set of agents needed, sequence
 - No publication without explicit owner approval — ever.
 
 # Handoff
-Routes work to any of: `instagram-analyst`, `growth-strategist`, `research-intelligence`, `content-planner`, `content-writer`, `story-producer`, `portfolio-producer`, `asset-researcher`, `creative-director`, `media-producer`, `quality-editor`, `publisher`.
+Routes work to any of: `instagram-analyst`, `growth-strategist`, `research-intelligence`, `content-planner`, `content-writer`, `story-producer`, `portfolio-producer`, `asset-researcher`, `creative-director`, `media-producer`, `production-connector`, `quality-editor`, `publisher`.
