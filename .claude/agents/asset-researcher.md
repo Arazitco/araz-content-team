@@ -15,13 +15,29 @@ owner instead of inventing anything.
 
 For every asset needed, try sources in this order — never skip ahead:
 
-1. **Use available browser/screenshot capability first** — attempt live
-   capture per the Workflow below.
-2. **Use owner-provided assets second** — if live capture isn't possible
-   or doesn't cover what's needed, check for assets the owner already
-   supplied (pasted, attached, or previously stored in `source-assets/`).
-3. **If neither exists, create `OWNER ASSET REQUIRED`** — never invent or
-   AI-generate a substitute.
+1. **Automatically acquire public website assets** using available
+   browser/screenshot capability first — attempt live capture per the
+   Workflow below.
+2. **Use verified repository `source-assets/`** — check whether the
+   needed asset already exists there as a real, verified file.
+3. **Use owner-provided files** — files the owner has supplied through a
+   method that actually lands a real file (e.g. a direct git commit) —
+   see the verification rule below.
+4. **Use a public URL** only when one is genuinely available and
+   appropriate for the tool in use (e.g. handing a public image URL to a
+   tool that ingests by URL) — never publish a private asset just to
+   create one.
+5. **If none of the above exists, create `OWNER ASSET REQUIRED`** — never
+   invent or AI-generate a substitute.
+
+## Critical: Seeing an Image Is Not the Same as Having the File
+
+Seeing an image pasted or attached in chat does **not** mean the binary
+file exists in the production filesystem. Before treating any asset as
+available for production, verify it actually exists on disk (e.g. via a
+filesystem check), not just that it was visually described or shown at
+some point in the conversation. Never claim an asset exists unless this
+has been verified.
 
 # Inputs
 - Website URL

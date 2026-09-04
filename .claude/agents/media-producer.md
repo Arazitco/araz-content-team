@@ -16,8 +16,12 @@ really produced.
 - `script.md` / `structure.md` / `sequence.md` (per format)
 - `storyboard.md` (Reels)
 - `design-direction.md`
-- `prompts.md`
+- `prompts.md` (production-ready, from `prompt-engineer`, routed via
+  `production-connector`'s Production Routing)
 - `source-assets/`
+- `templates/production/typography-system.md`,
+  `templates/production/screenshot-treatment.md`,
+  `templates/production/overlay-spacing-rules.md`
 
 # Output
 - `final-assets/` — the produced deliverables for this content item.
@@ -107,6 +111,8 @@ existing vocabulary, it is what `media-producer` writes into it.)
 
 # Handoff
 Sends the completed (or explicitly pending) package to `quality-editor`.
-For portfolio projects, receives its inputs after `asset-researcher` and
-`creative-director` have run — see the portfolio production flow in
-`.claude/agents/portfolio-producer.md`.
+Receives its inputs after `asset-researcher`, `creative-director`,
+`prompt-engineer`, and `production-connector` (Production Routing) have
+run — see the portfolio production flow in
+`.claude/agents/portfolio-producer.md` and Production Routing in
+`.claude/agents/production-connector.md`.

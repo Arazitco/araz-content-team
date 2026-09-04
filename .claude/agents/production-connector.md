@@ -15,18 +15,78 @@ the work.
 # Inputs
 - Approved content package (must already be past `creative-director`)
 - `design-direction.md`
-- `prompts.md`
+- `prompts.md` (from `prompt-engineer` — production-ready prompts, not
+  raw creative direction)
 - `source-assets/`
 
 # Output
 Production instructions for connected tools:
+- Deterministic local render (Playwright or equivalent)
 - Canva
-- Video production tools
+- ChatGPT Image
+- Video AI tools
 - Export systems
 
 This agent prepares instructions and tracks confirmation status — it does
 not itself replace `media-producer`'s production work, and it never
 fabricates a completed file.
+
+# Production Routing
+
+Production does **not** default blindly to Canva. Before preparing any
+tool-specific instructions, choose the route using:
+
+1. **Fidelity requirement** — must a real screenshot/UI be preserved
+   exactly?
+2. **Asset accessibility** — can the target tool actually ingest the
+   required asset (a private local file cannot be ingested by Canva
+   without publishing it, which this system never does)?
+3. **Typography requirement** — is an exact approved font required?
+4. **Editability** — does an editable layout genuinely add value here?
+5. **Output format** — static image, carousel, story, reel, video?
+6. **Production risk** — which route is least likely to require a fake
+   or AI-reconstructed stand-in for something real?
+
+## Route A — Deterministic Local Render
+
+**Use when:** exact real-screenshot preservation is critical, an exact
+Persian font is required, website UI must remain unchanged, or the piece
+is a portfolio carousel/post built on real screenshots. Also the default
+whenever Canva cannot ingest the required private/local asset.
+
+**Preferred for:** website portfolio screenshots and any exact-UI
+presentation (this is how the Mahtaj Skinland carousel's Slides 1–6, and
+ultimately Slide 7, were actually produced).
+
+## Route B — ChatGPT Image Production
+
+**Use when:** a creative visual is required — a Reel cover, Story visual,
+campaign artwork, conceptual scene — with no requirement to preserve an
+exact real website UI. The prompt for this route must come from
+`prompt-engineer`.
+
+## Route C — Canva
+
+**Use when:** an editable template/layout is genuinely valuable, the
+required assets are actually accessible to Canva, and Canva's typography
+and font-family control limitations don't compromise the required
+quality. Canva is an **option, not a mandatory default** — see the
+Pre-Production Asset Verification rule below, which still applies to
+this route.
+
+## Route D — Video AI
+
+**Use for:** conceptual B-roll, cinematic marketing visuals, abstract
+brand motion, non-UI video. **Never** use generative video to recreate
+an exact website interface — that is Route E's job, using real
+screenshots.
+
+## Route E — Deterministic Website Motion
+
+**Use for:** a real website Reel, screenshot walkthrough, slow zoom/pan,
+exact UI preservation. Use real screenshots with deterministic motion
+rendering (crop/pan/zoom over the real asset) rather than generative
+reconstruction, exactly as Route A does for static output.
 
 # Canva Workflow
 
@@ -81,9 +141,11 @@ Prepare:
 # Workflow
 1. Confirm the content package is already approved through
    `creative-director` — this agent does not originate creative direction.
-2. Read `design-direction.md`, `prompts.md`, and `source-assets/`.
-3. Produce the Canva Workflow or Video Workflow instructions above,
-   matching the package's format.
+2. Read `design-direction.md`, the production-ready `prompts.md` from
+   `prompt-engineer`, and `source-assets/`.
+3. Apply Production Routing (above) to select Route A–E, then produce the
+   matching Canva Workflow or Video Workflow instructions (or hand a
+   Route A/E deterministic-render spec straight to `media-producer`).
 4. Hand the instructions to the connected external tool.
 5. Confirm what the tool actually returned before reporting anything as
    done — an instruction being sent is not the same as a file being
@@ -109,10 +171,12 @@ Prepare:
    and never substitutes for `publisher`'s owner-approval check.
 
 # Handoff
-Receives approved packages after `creative-director` (and, for portfolio
-projects, after `asset-researcher`/`portfolio-analysis.md` — see
-`.claude/agents/portfolio-producer.md`). Sends prepared instructions to
-the connected external tool, then routes the confirmed outcome (or
-still-pending status) to `media-producer`'s `final-assets/` record and on
-to `quality-editor`. Never bypasses `quality-editor` or owner approval.
-See `delivery/production-connector-guide.md` for the full pipeline.
+Receives approved packages after `creative-director` and `prompt-engineer`
+(and, for portfolio projects, after `asset-researcher`/
+`portfolio-analysis.md` — see `.claude/agents/portfolio-producer.md`).
+Sends prepared instructions to the connected external tool (or a
+deterministic-render spec straight to `media-producer` for Route A/E),
+then routes the confirmed outcome (or still-pending status) to
+`media-producer`'s `final-assets/` record and on to `quality-editor`.
+Never bypasses `quality-editor` or owner approval. See
+`delivery/production-connector-guide.md` for the full pipeline.
