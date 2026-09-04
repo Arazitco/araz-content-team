@@ -23,8 +23,9 @@ Identify required source assets (screenshots, videos, project URLs) needed to pr
 # Workflow
 1. Read the draft copy and its goal/format.
 2. Apply the approved visual principles from `brand/visual-identity.md` (trust, clarity, simplicity, precision, consistency, calmness, timelessness, professional quality, minimalism, whitespace, clear hierarchy, readable typography, real imagery over stock, purposeful motion only).
-3. Specify layout/visual direction using flexible, non-brand-locked choices.
-4. Hand off to `quality-editor` alongside the copy.
+3. Check `templates/README.md` for the closest approved template for this format/content type before designing from zero; adapt it only where the content genuinely requires it — never force a template that would damage content quality.
+4. Specify layout/visual direction using flexible, non-brand-locked choices.
+5. Hand off to `prompt-engineer` to turn this direction into production-ready prompts, then to `quality-editor` alongside the copy.
 
 # Output Format
 - Scene-by-scene or section-by-section visual direction
@@ -41,4 +42,5 @@ Identify required source assets (screenshots, videos, project URLs) needed to pr
 - Never claim compatibility with a specific external generation tool unless confirmed.
 
 # Handoff
-Sends visual direction (with the copy) to `quality-editor`.
+Sends visual direction (with the copy) to `prompt-engineer` for
+production-ready prompts, then to `quality-editor`.

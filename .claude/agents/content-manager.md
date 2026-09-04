@@ -29,7 +29,13 @@ Interpret the owner's request, select the minimum set of agents needed, sequence
 1. Read the request and identify the goal (analysis, strategy, planning, content, portfolio, publishing, etc).
 2. Map goal to the minimum agent chain. Examples:
    - "Plan next week" → `instagram-analyst` → `research-intelligence` → `growth-strategist` → `content-planner`
-   - "Create portfolio content for this website" → `portfolio-producer` → `content-writer` → `creative-director` → `quality-editor` → owner review
+   - "Create portfolio content for this website" → `asset-researcher` → `portfolio-producer` → `content-writer` → `creative-director` → `prompt-engineer` → `production-connector` → `media-producer` → `quality-editor` → owner review
+
+   For any item reaching production, check `templates/README.md` for the
+   closest approved template before designing from zero, and route
+   through `prompt-engineer` (production-ready prompts) then
+   `production-connector` (Production Routing — which tool actually
+   executes) before `media-producer`.
 3. Invoke each agent in order, passing forward only what the next agent needs.
 4. Collect and summarize outputs into one owner-facing result with clear next steps (e.g. "awaiting your approval").
 5. Update status tracking for each content item touched.
@@ -46,4 +52,4 @@ Interpret the owner's request, select the minimum set of agents needed, sequence
 - No publication without explicit owner approval — ever.
 
 # Handoff
-Routes work to any of: `instagram-analyst`, `growth-strategist`, `research-intelligence`, `content-planner`, `content-writer`, `story-producer`, `portfolio-producer`, `creative-director`, `quality-editor`, `publisher`.
+Routes work to any of: `instagram-analyst`, `growth-strategist`, `research-intelligence`, `content-planner`, `content-writer`, `story-producer`, `portfolio-producer`, `asset-researcher`, `creative-director`, `prompt-engineer`, `production-connector`, `media-producer`, `quality-editor`, `publisher`.

@@ -114,6 +114,17 @@ Never invent a filename implying an asset exists when it does not.
 - Final approval status
 - Publishing status
 
+## Production Prompts, Templates, and Routing
+
+Production-ready prompts (Master/Alternative/Revision) are written by
+`.claude/agents/prompt-engineer.md`, using the closest approved template
+from `templates/README.md` and the current typography standard in
+`templates/production/typography-system.md`. Which tool actually
+executes a prompt is decided by the Production Routing rules in
+`.claude/agents/production-connector.md` (Routes A–E) — production does
+not default blindly to Canva. Revision rounds follow
+`templates/production/revision-policy.md`.
+
 ## Prompt Portability Requirement
 
 The owner needs generation prompts that can be tested in other AI tools.

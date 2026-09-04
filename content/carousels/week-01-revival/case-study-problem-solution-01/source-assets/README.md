@@ -38,5 +38,50 @@ retry-able error.
 - Any business result, traffic/SEO figure, or client quote
 - A prior/"before" version of the site
 
-SOURCE ASSET STATUS: **VIEWED AND DESCRIBED — FILE STILL NOT STORED AFTER
-TWO SUPPLY ATTEMPTS.** See `brief.md` for the current owner-input note.
+## Third Supply Attempt — Direct Image Viewing (This Session)
+
+The owner uploaded 3 images directly into this conversation: (1) a
+mobile homepage top section, (2) a full mobile homepage scroll, (3) the
+shop/category listing page. This session viewed all 3 in full detail.
+They independently confirm the description above (ANUBIS/TANURA/TIBERM
+brand sections, 4-category grid, per-brand in-page carousels, "درباره
+Mahtaj Skinland" about section) and add new detail from the shop page
+not previously described:
+
+- Shop page header/nav: logo (gold crescent/leaf mark), "فروشگاه" title,
+  brand filter tabs (مراقبت از پا و ناخن / مو / صورت / بدن, TIBERM,
+  TANURA, ANUBIS), sort dropdown ("مرتب سازی بر اساس جدیدترین"),
+  pagination showing counts (۲۴/۱۸/۱۲/۹) and page numbers ۱–۳.
+- Sidebar filters: an availability toggle ("وضعیت موجودی"), a product
+  search box, a price-range slider (۵۳۰,۰۰۰ تا ۶,۸۹۱,۰۰۰ تومان), a
+  category dropdown, a "جستجو براساس نوع مصرف" checkbox group (مصرف
+  سالنی / مصرف خانگی), and a skin-type dropdown.
+- Product grid: named products with prices visible, e.g. کرم مرطوب
+  کننده ۶-۲ تنورا, سرم ترمیم کننده خون آلوده تنورا, سرم جوان‌ساز بایو
+  پلاسنتا تنورا, ضد آفتاب لیکوئیدی/کرم SPF 50 تنورا, ماسک سفید کننده
+  آنوبیس, اسکراب دست و بدن توت‌فرنگی تنورا, ژل شوینده ۱-۴ تنورا, لوشن و
+  آبرسان پوست چرب آنوبیس, ضد جوش موضعی آنوبیس.
+- Footer: "Mahtaj Skin Land" brand name, address (تهران، پردیس، میدان
+  عدالت، مجتمع پویا), two phone numbers, social icons, two trust-seal
+  logos, and a footer credit line naming آراز سیستم as the site's
+  designer.
+
+**The underlying image files are still not stored as bytes in this
+repository.** This session searched exhaustively for them after this
+third supply attempt — `/root/.claude/uploads/<session>/` (where two
+earlier *text* attachments for this same project landed successfully),
+a full filesystem scan by both recent-modification-time and image file
+extension across `/home`, `/mnt`, `/root/.claude/projects`, and
+`/mnt/attach` (present but empty) — and found nothing. Text/markdown
+attachments demonstrably do reach this session's filesystem; image
+attachments have not, across three separate supply attempts on two
+different projects (Carlin Ladies ×2, Mahtaj Skinland ×2 counting this
+one). This looks like a systematic environment behavior specific to
+image attachments, not a one-off retry-able error.
+
+SOURCE ASSET STATUS: **VIEWED AND DESCRIBED (now independently confirmed
+via direct image viewing) — FILE STILL NOT STORED AFTER THREE SUPPLY
+ATTEMPTS ACROSS THIS PROJECT.** See `brief.md` for the current
+owner-input note, and `owner/media-review-mahtaj-final-fa.md` for two
+concrete alternate delivery paths that don't depend on chat image
+attachment.

@@ -40,7 +40,14 @@ Exact colors: NOT approved — PENDING REDESIGN
 - Highly readable
 - Suitable for both Persian and English
 
-Exact font: To be defined
+Exact font: To be defined (final brand identity still PENDING REDESIGN)
+
+**Current production standard (temporary, not final brand identity):**
+Vazirmatn Bold/Medium/ExtraBold — see
+`templates/production/typography-system.md`. This is what production
+actually uses today so content isn't blocked on the redesign, and the
+owner may replace it entirely once the final visual identity is
+approved.
 
 ## Logo
 To be defined / pending redesign

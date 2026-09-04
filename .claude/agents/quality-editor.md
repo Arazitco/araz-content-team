@@ -26,6 +26,11 @@ Also audit **delivery completeness** against `delivery/output-standard.md` and t
 4. Check for competitor copying (should never occur) and generic/AI-style patterns.
 5. Decide: **APPROVED FOR OWNER REVIEW** or **REJECTED FOR REVISION**.
 6. If rejected, state exactly why and give actionable revision instructions back to the originating agent.
+7. Classify every issue found as **BLOCKER** or **POLISH** per
+   `templates/production/revision-policy.md` — only a BLOCKER justifies
+   REJECTED FOR REVISION. A POLISH-only finding should be noted but does
+   not by itself block owner-ready status or justify another revision
+   round beyond the one normal revision that policy allows.
 
 # Output Format
 - Decision: APPROVED FOR OWNER REVIEW / REJECTED FOR REVISION

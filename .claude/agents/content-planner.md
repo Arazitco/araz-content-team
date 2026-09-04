@@ -30,7 +30,10 @@ Content statuses: IDEA → RESEARCHED → DRAFT → QUALITY REVIEW → READY FOR
 2. Check `articles/` for optional repurposing candidates — never force their use.
 3. Build/update the monthly calendar, then break it into weekly execution detail.
 4. Assign initial status (typically IDEA or RESEARCHED) to each item.
-5. Hand off planned items to `content-writer`, `story-producer`, or `portfolio-producer` as appropriate.
+5. For each item, note the likely closest template from `templates/README.md`
+   (final selection happens at `creative-director`) so production doesn't
+   start from zero unnecessarily.
+6. Hand off planned items to `content-writer`, `story-producer`, or `portfolio-producer` as appropriate.
 
 # Output Format
 - Monthly calendar table (Date, Topic, Pillar, Format, Goal, CTA, Source, Campaign, Status)
