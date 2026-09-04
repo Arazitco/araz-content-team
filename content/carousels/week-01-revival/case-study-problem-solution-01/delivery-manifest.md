@@ -2,9 +2,12 @@ CONTENT ID: case-study-problem-solution-01
 CONTENT TYPE: Carousel (7 slides — reduced from 8 per Owner Review)
 PROJECT: Mahtaj Skinland (https://mahtajskinland.com)
 CONTENT ANGLE: Design Breakdown (reframed from Case Study — see brief.md)
-VERSION: v04 — copy revised per Owner Review (hook, Slides 5 & 6, and
-caption rewritten to remove implied intent; slide count reduced 8→7).
-File-storage gap unchanged from v03.
+VERSION: v05 — final media produced. Copy unchanged from v04. Slides 1–6
+composited from real committed screenshots (`source-assets/`) with
+Vazirmatn typography (`brand/typography/fonts/`); Slide 7 rendered
+locally with the same pipeline, reproducing its originally-approved Canva
+spec verbatim after the Canva original became inaccessible (see
+`final-assets/README.md`).
 
 DOCUMENTS:
 [x] Brief
@@ -16,34 +19,27 @@ DOCUMENTS:
 [x] Quality Review
 
 MEDIA:
-[ ] PNG/JPG generated
-[ ] Source assets present (viewed and documented, still not stored as a
-    file after two supply attempts — see source-assets/README.md)
+[x] PNG/JPG generated (all 7 slides, 1080x1350)
+[x] Source assets present (`source-assets/` — 3 real screenshots)
 
 MEDIA STATUS:
-PENDING EXTERNAL GENERATION — the real screenshot was viewed and used to
-write this package, but the file itself is still not stored, and no
-slide images have been composited.
+READY — all 7 slides composited/rendered from real, committed source
+assets and the approved copy; verified 1080x1350 PNG.
 
 QUALITY STATUS:
-QUALITY APPROVED (production specification only, grounded in real asset)
+QUALITY APPROVED (content unchanged; media now complete)
 
 OWNER STATUS:
-NOT REVIEWED
+OWNER APPROVED
 
 PUBLISHING STATUS:
-NOT READY
+READY FOR PUBLISHING
 
-Missing items: the homepage screenshot physically stored in
-`source-assets/`; 6 composited slide images (Slides 1–6); Slide 7 render
-(can be done immediately once reviewed with the rest).
-Owner input required: the file-storage gap appears to be an environment
-limitation rather than something fixable by resending within this chat —
-worth confirming an alternate delivery method before a third attempt;
-optionally provide the real business problem/design rationale if this
-should become a true Case Study later; optionally provide additional
-pages for a richer breakdown.
-External generation required: image compositing for Slides 1–6 once the
-file is stored.
-Known limitations: same as Day 1 — this session cannot access image bytes
-from files attached in this conversation, by any method tried so far.
+Missing items: none.
+Owner input required: none outstanding.
+External generation required: none.
+Known limitations: Slide 7 originated as a Canva design
+(`DAHUKTZEyMI`) that became inaccessible to this session ("Not allowed
+to access design", both read and export) before this final export pass —
+re-rendered locally instead, matching the same approved spec exactly;
+see `final-assets/README.md` for detail.
